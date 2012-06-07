@@ -26,7 +26,7 @@
 	Returns True if the document is available, else False.::
 	
 	    >>> document = Scripter.activeDocument
-	    >>> print document.available
+	    >>> document.available
 	    True
 	    >>> 
 	
@@ -36,4 +36,18 @@
 
 .. py:method:: DocumentAPI.close()
 
-   Close a document.
+   Closes a document. Returns True is successful, else return False.
+   
+       >>> document = Scripter.activeDocument
+       >>> document.close()
+       True
+       >>>
+       
+.. py:method:: DocumentAPI.save()
+
+   Saves the current document, and return True is successful. If the document is a new one (i.e., you are trying to save it for the first time), calling this function will result in invocation of Save As dialog, where you can enter the name for your document.
+   
+       >>> document = Scripter.activeDocument
+       >>> document.save()
+       True
+       >>>
