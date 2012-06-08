@@ -14,12 +14,23 @@ Scripter2 API Specification
 ===========================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    
    scripter
    documentapi
    margins
+   scribuslayer
+   scribusitem
+   scribustextitem
+   scribusimageitem
 
+
+Tutorials
+=========
+
+
+Python Scripts
+==============
 
 
 Indices and tables

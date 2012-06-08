@@ -29,7 +29,32 @@
 	    >>> document.available
 	    True
 	    >>> 
-	
+
+.. py:attribute:: DocumentAPI.margins
+
+.. py:attribute:: DocumentAPI.modified
+
+.. py:attribute:: DocumentAPI.activePage
+
+.. py:attribute:: DocumentAPI.pageCount
+
+.. py:attribute:: DocumentAPI.activeItem
+
+.. py:attribute:: DocumentAPI.dimensions
+
+.. py:attribute:: DocumentAPI.items
+
+.. py:attribute:: DocumentAPI.selection
+
+.. py:attribute:: DocumentAPI.selectionCount
+
+.. py:attribute:: DocumentAPI.colors
+
+.. py:attribute:: DocumentAPI.layers
+
+.. py:attribute:: DocumentAPI.masterPages
+
+.. py:attribute:: DocumentAPI.styles	
 
 :class:`DocumentAPI` Methods
 ----------------------------
@@ -51,3 +76,36 @@
        >>> document.save()
        True
        >>>
+
+.. py:method:: DocumentAPI.saveAs(name)
+
+.. py:method:: DocumentAPI.setInformation(author, title, description)
+
+.. py:method:: DocumentAPI.newLayer(name)
+
+.. py:method:: DocumentAPI.removeLayer(name)
+
+.. py:method:: DocumentAPI.getActiveLayer()
+
+   Make it property
+   
+.. py:method:: DocumentAPI.setActiveLayer(name)
+
+   Make it property
+   
+.. py:method:: DocumentAPI.getActiveLayerName()
+
+   Make it property
+
+.. py:method:: DocumentAPI.newColorCMYK(c, m, y, k)
+
+.. py:method:: DocumentAPI.newColorRGB(r, g, b)
+
+.. py:method:: DocumentAPI.getColor(name)
+
+   Make it property
+   
+.. py:method:: DocumentAPI.supportedImageTypes()
+
+.. py:method:: DocumentAPI.exportAsImages(directoryName, scale, quality, dpi, overwrite)
+
