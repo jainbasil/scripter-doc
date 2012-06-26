@@ -5,7 +5,7 @@
 
 .. py:class:: TextAPI
 
-   :class: `TextAPI` inherits :class:`ScribusItem`. It adds attributes and methods that are specific to Text Items in a Scribus document.
+   :class:`TextAPI` inherits :class:`ScribusItem`. It adds attributes and methods that are specific to Text Items in a Scribus document.
 
 :class:`TextAPI` Attributes
 -----------------------------------
