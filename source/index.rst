@@ -33,6 +33,14 @@ Python Scripts
 ==============
 
 
+Frequently Asked Questions
+==========================
+
+.. toctree::
+   :maxdepth: 1
+
+   how-to-submit
+
 Indices and tables
 ==================
 
