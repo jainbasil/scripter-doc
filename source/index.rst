@@ -14,15 +14,15 @@ Scripter2 API Specification
 ===========================
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 1
    
    docs/scripter
    docs/documentapi
    docs/margins
-   docs/scribuslayer
-   docs/scribusitem
-   docs/scribustextitem
-   docs/scribusimageitem
+   docs/layerapi
+   docs/itemapi
+   docs/textapi
+   docs/imageapi
 
 
 Tutorials
