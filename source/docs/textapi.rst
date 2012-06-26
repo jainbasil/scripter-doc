@@ -1,4 +1,4 @@
-OP.. highlight:: rst
+.. highlight:: rst
 
 :class:`TextAPI`
 ========================
