@@ -1,4 +1,4 @@
-.. highlight:: rst
+OP.. highlight:: rst
 
 :class:`TextAPI`
 ========================
@@ -11,6 +11,13 @@
 -----------------------------------
 
 .. py:attribute:: TextAPI.font
+
+   Used to get/set the font of Text Item.
+
+   >>> textItem.font
+   u'Arial Regular'
+   >>> textItem.font = "Times New Roman Regular"
+   >>>
 
 .. py:attribute:: TextAPI.fontSize
 
