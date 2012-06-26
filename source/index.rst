@@ -16,13 +16,13 @@ Scripter2 API Specification
 .. toctree::
    :maxdepth: 3
    
-   scripter
-   documentapi
-   margins
-   scribuslayer
-   scribusitem
-   scribustextitem
-   scribusimageitem
+   docs/scripter
+   docs/documentapi
+   docs/margins
+   docs/scribuslayer
+   docs/scribusitem
+   docs/scribustextitem
+   docs/scribusimageitem
 
 
 Tutorials
@@ -39,7 +39,7 @@ Frequently Asked Questions
 .. toctree::
    :maxdepth: 1
 
-   how-to-submit
+   howto/how-to-submit
 
 Indices and tables
 ==================
