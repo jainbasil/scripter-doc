@@ -32,6 +32,10 @@ Tutorials
 Python Scripts
 ==============
 
+.. toctree::
+   :maxdepth: 1
+
+   scripts/add-new-menu
 
 Frequently Asked Questions
 ==========================
