@@ -10,7 +10,7 @@
 :class:`ItemAPI` Attributes
 -------------------------------
 
-.. py:attribute:: ItemAPI.itemName
+.. py:attribute:: ItemAPI.name
 .. py:attribute:: ItemAPI.fillColor
 .. py:attribute:: ItemAPI.lineColor
 .. py:attribute:: ItemAPI.fillShade
