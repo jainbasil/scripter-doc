@@ -32,7 +32,19 @@
 
 .. py:attribute:: DocumentAPI.margins
 
+  Return an object of type :class:`Margins`
+
 .. py:attribute:: DocumentAPI.modified
+
+  This attribute is used to check whether the document is modified or not. It can also be used to set a document as modified.::
+
+      >>> doc = Scripter.activeDocument
+      >>> doc.modified
+      False
+      >>> doc.modified = True
+      >>> doc.modified
+      True
+      >>> 
 
 .. py:attribute:: DocumentAPI.activePage
 
